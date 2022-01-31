@@ -1,4 +1,4 @@
 credentials = {
-    'CLIENT_ID': '3e72d2097b8840c88e8cf32b88755e23',
-    'CLIENT_SECRET': 'cA3c7C7F9d894eD4AC77da761287d70E'
+    'CLIENT_ID': '***',
+    'CLIENT_SECRET': '***'
 }
