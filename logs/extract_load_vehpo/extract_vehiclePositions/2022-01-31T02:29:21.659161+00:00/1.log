@@ -1,0 +1,69 @@
+[2022-01-31 02:30:23,045] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: extract_load_vehpo.extract_vehiclePositions scheduled__2022-01-31T02:29:21.659161+00:00 [queued]>
+[2022-01-31 02:30:23,095] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: extract_load_vehpo.extract_vehiclePositions scheduled__2022-01-31T02:29:21.659161+00:00 [queued]>
+[2022-01-31 02:30:23,096] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 02:30:23,098] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2022-01-31 02:30:23,099] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 02:30:23,167] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): extract_vehiclePositions> on 2022-01-31 02:29:21.659161+00:00
+[2022-01-31 02:30:23,197] {standard_task_runner.py:52} INFO - Started process 909 to run task
+[2022-01-31 02:30:23,209] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'extract_load_vehpo', 'extract_vehiclePositions', 'scheduled__2022-01-31T02:29:21.659161+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/ELT_VehiclePositions.py', '--cfg-path', '/tmp/tmpui642at0', '--error-file', '/tmp/tmp2zwnwczp']
+[2022-01-31 02:30:23,230] {standard_task_runner.py:77} INFO - Job 19: Subtask extract_vehiclePositions
+[2022-01-31 02:30:23,472] {logging_mixin.py:109} INFO - Running <TaskInstance: extract_load_vehpo.extract_vehiclePositions scheduled__2022-01-31T02:29:21.659161+00:00 [running]> on host 932e3c301250
+[2022-01-31 02:30:23,642] {taskinstance.py:1414} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=juan
+AIRFLOW_CTX_DAG_ID=extract_load_vehpo
+AIRFLOW_CTX_TASK_ID=extract_vehiclePositions
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-31T02:29:21.659161+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-31T02:29:21.659161+00:00
+[2022-01-31 02:30:50,634] {taskinstance.py:1686} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1324, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1443, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1499, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ELT_VehiclePositions.py", line 10, in _extract_gtfs
+    path = extract_gtfs(endpoint)
+  File "/opt/airflow/dags/gtfs_elt/functions.py", line 32, in extract_gtfs
+    os.chdir('/data/gtfs-realtime')
+FileNotFoundError: [Errno 2] No such file or directory: '/data/gtfs-realtime'
+[2022-01-31 02:30:50,825] {taskinstance.py:1280} INFO - Marking task as FAILED. dag_id=extract_load_vehpo, task_id=extract_vehiclePositions, execution_date=20220131T022921, start_date=20220131T023023, end_date=20220131T023050
+[2022-01-31 02:30:50,910] {standard_task_runner.py:91} ERROR - Failed to execute job 19 for task extract_vehiclePositions
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 292, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1324, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1443, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1499, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ELT_VehiclePositions.py", line 10, in _extract_gtfs
+    path = extract_gtfs(endpoint)
+  File "/opt/airflow/dags/gtfs_elt/functions.py", line 32, in extract_gtfs
+    os.chdir('/data/gtfs-realtime')
+FileNotFoundError: [Errno 2] No such file or directory: '/data/gtfs-realtime'
+[2022-01-31 02:30:51,018] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-01-31 02:30:51,254] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

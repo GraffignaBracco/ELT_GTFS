@@ -1,0 +1,22 @@
+[2022-01-31 03:14:22,676] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: extract_load_vehpo.extract_vehiclePositions scheduled__2022-01-31T03:13:21.659161+00:00 [queued]>
+[2022-01-31 03:14:22,693] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: extract_load_vehpo.extract_vehiclePositions scheduled__2022-01-31T03:13:21.659161+00:00 [queued]>
+[2022-01-31 03:14:22,694] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 03:14:22,695] {taskinstance.py:1242} INFO - Starting attempt 1 of 1
+[2022-01-31 03:14:22,696] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-31 03:14:22,718] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): extract_vehiclePositions> on 2022-01-31 03:13:21.659161+00:00
+[2022-01-31 03:14:22,725] {standard_task_runner.py:52} INFO - Started process 3288 to run task
+[2022-01-31 03:14:22,734] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'extract_load_vehpo', 'extract_vehiclePositions', 'scheduled__2022-01-31T03:13:21.659161+00:00', '--job-id', '107', '--raw', '--subdir', 'DAGS_FOLDER/ELT_VehiclePositions.py', '--cfg-path', '/tmp/tmpsbrsmwro', '--error-file', '/tmp/tmpolbm2h3j']
+[2022-01-31 03:14:22,741] {standard_task_runner.py:77} INFO - Job 107: Subtask extract_vehiclePositions
+[2022-01-31 03:14:22,793] {logging_mixin.py:109} INFO - Running <TaskInstance: extract_load_vehpo.extract_vehiclePositions scheduled__2022-01-31T03:13:21.659161+00:00 [running]> on host 932e3c301250
+[2022-01-31 03:14:22,853] {taskinstance.py:1414} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=juan
+AIRFLOW_CTX_DAG_ID=extract_load_vehpo
+AIRFLOW_CTX_TASK_ID=extract_vehiclePositions
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-31T03:13:21.659161+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-31T03:13:21.659161+00:00
+[2022-01-31 03:14:23,780] {python.py:152} INFO - Done. Returned value was: None
+[2022-01-31 03:14:23,795] {taskinstance.py:1280} INFO - Marking task as SUCCESS. dag_id=extract_load_vehpo, task_id=extract_vehiclePositions, execution_date=20220131T031321, start_date=20220131T031422, end_date=20220131T031423
+[2022-01-31 03:14:23,830] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-01-31 03:14:23,875] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

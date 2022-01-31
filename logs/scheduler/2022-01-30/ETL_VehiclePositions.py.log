@@ -1,0 +1,70 @@
+[2022-01-30 22:14:53,061] {processor.py:163} INFO - Started process (PID=64914) to work on /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:14:53,077] {processor.py:620} INFO - Processing file /opt/airflow/dags/ETL_VehiclePositions.py for tasks to queue
+[2022-01-30 22:14:53,085] {logging_mixin.py:109} INFO - [2022-01-30 22:14:53,085] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:14:54,602] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:14:54,697] {logging_mixin.py:109} INFO - [2022-01-30 22:14:54,694] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 22:14:54,896] {logging_mixin.py:109} INFO - [2022-01-30 22:14:54,896] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T22:14:24.895854+00:00
+[2022-01-30 22:14:55,017] {processor.py:171} INFO - Processing /opt/airflow/dags/ETL_VehiclePositions.py took 2.103 seconds
+[2022-01-30 22:15:25,512] {processor.py:163} INFO - Started process (PID=64940) to work on /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:15:25,522] {processor.py:620} INFO - Processing file /opt/airflow/dags/ETL_VehiclePositions.py for tasks to queue
+[2022-01-30 22:15:25,531] {logging_mixin.py:109} INFO - [2022-01-30 22:15:25,527] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:15:25,794] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:15:25,839] {logging_mixin.py:109} INFO - [2022-01-30 22:15:25,837] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 22:15:25,904] {logging_mixin.py:109} INFO - [2022-01-30 22:15:25,904] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T22:14:55.903852+00:00
+[2022-01-30 22:15:25,925] {processor.py:171} INFO - Processing /opt/airflow/dags/ETL_VehiclePositions.py took 0.467 seconds
+[2022-01-30 22:15:56,053] {processor.py:163} INFO - Started process (PID=64962) to work on /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:15:56,056] {processor.py:620} INFO - Processing file /opt/airflow/dags/ETL_VehiclePositions.py for tasks to queue
+[2022-01-30 22:15:56,057] {logging_mixin.py:109} INFO - [2022-01-30 22:15:56,057] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:15:56,131] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:15:56,151] {logging_mixin.py:109} INFO - [2022-01-30 22:15:56,149] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 22:15:56,171] {logging_mixin.py:109} INFO - [2022-01-30 22:15:56,171] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T22:15:26.170940+00:00
+[2022-01-30 22:15:56,186] {processor.py:171} INFO - Processing /opt/airflow/dags/ETL_VehiclePositions.py took 0.136 seconds
+[2022-01-30 22:16:26,274] {processor.py:163} INFO - Started process (PID=64984) to work on /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:16:26,276] {processor.py:620} INFO - Processing file /opt/airflow/dags/ETL_VehiclePositions.py for tasks to queue
+[2022-01-30 22:16:26,278] {logging_mixin.py:109} INFO - [2022-01-30 22:16:26,277] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:16:26,344] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:16:26,370] {logging_mixin.py:109} INFO - [2022-01-30 22:16:26,359] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 22:16:26,407] {logging_mixin.py:109} INFO - [2022-01-30 22:16:26,407] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T22:15:56.404307+00:00
+[2022-01-30 22:16:26,433] {processor.py:171} INFO - Processing /opt/airflow/dags/ETL_VehiclePositions.py took 0.165 seconds
+[2022-01-30 22:16:56,548] {processor.py:163} INFO - Started process (PID=65018) to work on /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:16:56,551] {processor.py:620} INFO - Processing file /opt/airflow/dags/ETL_VehiclePositions.py for tasks to queue
+[2022-01-30 22:16:56,554] {logging_mixin.py:109} INFO - [2022-01-30 22:16:56,553] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:16:56,632] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:16:56,648] {logging_mixin.py:109} INFO - [2022-01-30 22:16:56,646] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 22:16:56,666] {logging_mixin.py:109} INFO - [2022-01-30 22:16:56,666] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T22:16:26.665831+00:00
+[2022-01-30 22:16:56,682] {processor.py:171} INFO - Processing /opt/airflow/dags/ETL_VehiclePositions.py took 0.140 seconds
+[2022-01-30 22:17:26,756] {processor.py:163} INFO - Started process (PID=65042) to work on /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:17:26,758] {processor.py:620} INFO - Processing file /opt/airflow/dags/ETL_VehiclePositions.py for tasks to queue
+[2022-01-30 22:17:26,760] {logging_mixin.py:109} INFO - [2022-01-30 22:17:26,760] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:17:26,830] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:17:26,863] {logging_mixin.py:109} INFO - [2022-01-30 22:17:26,862] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 22:17:26,981] {logging_mixin.py:109} INFO - [2022-01-30 22:17:26,981] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T22:16:56.981144+00:00
+[2022-01-30 22:17:27,024] {processor.py:171} INFO - Processing /opt/airflow/dags/ETL_VehiclePositions.py took 0.274 seconds
+[2022-01-30 22:17:57,157] {processor.py:163} INFO - Started process (PID=65074) to work on /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:17:57,161] {processor.py:620} INFO - Processing file /opt/airflow/dags/ETL_VehiclePositions.py for tasks to queue
+[2022-01-30 22:17:57,163] {logging_mixin.py:109} INFO - [2022-01-30 22:17:57,163] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:17:57,252] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:17:57,278] {logging_mixin.py:109} INFO - [2022-01-30 22:17:57,275] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 22:17:57,301] {logging_mixin.py:109} INFO - [2022-01-30 22:17:57,301] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T22:17:27.300910+00:00
+[2022-01-30 22:17:57,321] {processor.py:171} INFO - Processing /opt/airflow/dags/ETL_VehiclePositions.py took 0.172 seconds
+[2022-01-30 22:18:27,760] {processor.py:163} INFO - Started process (PID=65098) to work on /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:18:27,762] {processor.py:620} INFO - Processing file /opt/airflow/dags/ETL_VehiclePositions.py for tasks to queue
+[2022-01-30 22:18:27,764] {logging_mixin.py:109} INFO - [2022-01-30 22:18:27,764] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:18:27,821] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:18:27,833] {logging_mixin.py:109} INFO - [2022-01-30 22:18:27,832] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 22:18:27,847] {logging_mixin.py:109} INFO - [2022-01-30 22:18:27,847] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T22:17:57.846740+00:00
+[2022-01-30 22:18:27,856] {processor.py:171} INFO - Processing /opt/airflow/dags/ETL_VehiclePositions.py took 0.099 seconds
+[2022-01-30 22:18:57,930] {processor.py:163} INFO - Started process (PID=65129) to work on /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:18:57,932] {processor.py:620} INFO - Processing file /opt/airflow/dags/ETL_VehiclePositions.py for tasks to queue
+[2022-01-30 22:18:57,947] {logging_mixin.py:109} INFO - [2022-01-30 22:18:57,947] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:18:58,111] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:18:58,147] {logging_mixin.py:109} INFO - [2022-01-30 22:18:58,146] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 22:18:58,168] {logging_mixin.py:109} INFO - [2022-01-30 22:18:58,168] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T22:18:28.168010+00:00
+[2022-01-30 22:18:58,198] {processor.py:171} INFO - Processing /opt/airflow/dags/ETL_VehiclePositions.py took 0.272 seconds
+[2022-01-30 22:19:28,340] {processor.py:163} INFO - Started process (PID=65153) to work on /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:19:28,342] {processor.py:620} INFO - Processing file /opt/airflow/dags/ETL_VehiclePositions.py for tasks to queue
+[2022-01-30 22:19:28,344] {logging_mixin.py:109} INFO - [2022-01-30 22:19:28,344] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:19:28,398] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/ETL_VehiclePositions.py
+[2022-01-30 22:19:28,412] {logging_mixin.py:109} INFO - [2022-01-30 22:19:28,411] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 22:19:28,428] {logging_mixin.py:109} INFO - [2022-01-30 22:19:28,428] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T22:18:58.428444+00:00
+[2022-01-30 22:19:28,440] {processor.py:171} INFO - Processing /opt/airflow/dags/ETL_VehiclePositions.py took 0.105 seconds

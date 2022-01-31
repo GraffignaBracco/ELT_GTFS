@@ -1,0 +1,691 @@
+[2022-01-30 20:11:28,933] {processor.py:163} INFO - Started process (PID=53788) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:11:28,948] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:11:28,958] {logging_mixin.py:109} INFO - [2022-01-30 20:11:28,957] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:11:30,206] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:11:45,466] {logging_mixin.py:109} INFO - [2022-01-30 20:11:45,466] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2022-01-30 20:11:53,937] {logging_mixin.py:109} INFO - [2022-01-30 20:11:53,937] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2022-01-30 20:11:53,988] {logging_mixin.py:109} INFO - [2022-01-30 20:11:53,987] {manager.py:496} INFO - Created Permission View: can read on DAG:extract_vehpo
+[2022-01-30 20:11:54,000] {logging_mixin.py:109} INFO - [2022-01-30 20:11:54,000] {manager.py:496} INFO - Created Permission View: can edit on DAG:extract_vehpo
+[2022-01-30 20:11:54,002] {logging_mixin.py:109} INFO - [2022-01-30 20:11:54,001] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:11:54,014] {logging_mixin.py:109} INFO - [2022-01-30 20:11:54,013] {dag.py:2408} INFO - Creating ORM DAG for extract_vehpo
+[2022-01-30 20:11:54,026] {logging_mixin.py:109} INFO - [2022-01-30 20:11:54,025] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:11:24.025114+00:00
+[2022-01-30 20:11:54,045] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 25.183 seconds
+[2022-01-30 20:12:24,165] {processor.py:163} INFO - Started process (PID=53832) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:12:24,167] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:12:24,178] {logging_mixin.py:109} INFO - [2022-01-30 20:12:24,177] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:12:24,322] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:12:24,337] {logging_mixin.py:109} INFO - [2022-01-30 20:12:24,336] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:12:24,355] {logging_mixin.py:109} INFO - [2022-01-30 20:12:24,355] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:11:54.354977+00:00
+[2022-01-30 20:12:24,367] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.209 seconds
+[2022-01-30 20:12:54,465] {processor.py:163} INFO - Started process (PID=53854) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:12:54,468] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:12:54,470] {logging_mixin.py:109} INFO - [2022-01-30 20:12:54,470] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:12:54,534] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:12:54,547] {logging_mixin.py:109} INFO - [2022-01-30 20:12:54,546] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:12:54,562] {logging_mixin.py:109} INFO - [2022-01-30 20:12:54,562] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:12:24.561793+00:00
+[2022-01-30 20:12:54,571] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.111 seconds
+[2022-01-30 20:13:24,629] {processor.py:163} INFO - Started process (PID=53890) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:13:24,631] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:13:24,633] {logging_mixin.py:109} INFO - [2022-01-30 20:13:24,633] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:13:24,696] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:13:24,714] {logging_mixin.py:109} INFO - [2022-01-30 20:13:24,712] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:13:24,734] {logging_mixin.py:109} INFO - [2022-01-30 20:13:24,734] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:12:54.733860+00:00
+[2022-01-30 20:13:24,748] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.123 seconds
+[2022-01-30 20:13:54,830] {processor.py:163} INFO - Started process (PID=53912) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:13:54,832] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:13:54,833] {logging_mixin.py:109} INFO - [2022-01-30 20:13:54,833] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:13:54,909] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:13:54,927] {logging_mixin.py:109} INFO - [2022-01-30 20:13:54,925] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:13:54,948] {logging_mixin.py:109} INFO - [2022-01-30 20:13:54,948] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:13:24.948444+00:00
+[2022-01-30 20:13:54,966] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.141 seconds
+[2022-01-30 20:14:25,036] {processor.py:163} INFO - Started process (PID=53947) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:14:25,040] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:14:25,043] {logging_mixin.py:109} INFO - [2022-01-30 20:14:25,042] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:14:25,167] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:14:25,203] {logging_mixin.py:109} INFO - [2022-01-30 20:14:25,200] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:14:25,241] {logging_mixin.py:109} INFO - [2022-01-30 20:14:25,241] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:13:55.240480+00:00
+[2022-01-30 20:14:25,304] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.277 seconds
+[2022-01-30 20:14:55,403] {processor.py:163} INFO - Started process (PID=53971) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:14:55,405] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:14:55,407] {logging_mixin.py:109} INFO - [2022-01-30 20:14:55,406] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:14:55,460] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:14:55,471] {logging_mixin.py:109} INFO - [2022-01-30 20:14:55,470] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:14:55,487] {logging_mixin.py:109} INFO - [2022-01-30 20:14:55,487] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:14:25.487395+00:00
+[2022-01-30 20:14:55,497] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.101 seconds
+[2022-01-30 20:15:25,581] {processor.py:163} INFO - Started process (PID=53995) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:15:25,584] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:15:25,585] {logging_mixin.py:109} INFO - [2022-01-30 20:15:25,585] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:15:25,643] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:15:25,661] {logging_mixin.py:109} INFO - [2022-01-30 20:15:25,659] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:15:25,677] {logging_mixin.py:109} INFO - [2022-01-30 20:15:25,676] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:14:55.676360+00:00
+[2022-01-30 20:15:25,688] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.111 seconds
+[2022-01-30 20:15:55,769] {processor.py:163} INFO - Started process (PID=54027) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:15:55,777] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:15:55,781] {logging_mixin.py:109} INFO - [2022-01-30 20:15:55,779] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:15:55,928] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:15:55,966] {logging_mixin.py:109} INFO - [2022-01-30 20:15:55,964] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:15:56,029] {logging_mixin.py:109} INFO - [2022-01-30 20:15:56,028] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:15:26.021518+00:00
+[2022-01-30 20:15:56,061] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.302 seconds
+[2022-01-30 20:16:26,226] {processor.py:163} INFO - Started process (PID=54049) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:16:26,229] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:16:26,232] {logging_mixin.py:109} INFO - [2022-01-30 20:16:26,232] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:16:26,319] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:16:26,333] {logging_mixin.py:109} INFO - [2022-01-30 20:16:26,331] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:16:26,348] {logging_mixin.py:109} INFO - [2022-01-30 20:16:26,348] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:15:56.348246+00:00
+[2022-01-30 20:16:26,360] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.139 seconds
+[2022-01-30 20:16:56,504] {processor.py:163} INFO - Started process (PID=54080) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:16:56,505] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:16:56,507] {logging_mixin.py:109} INFO - [2022-01-30 20:16:56,507] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:16:56,564] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:16:56,593] {logging_mixin.py:109} INFO - [2022-01-30 20:16:56,590] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:16:56,620] {logging_mixin.py:109} INFO - [2022-01-30 20:16:56,620] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:16:26.619963+00:00
+[2022-01-30 20:16:56,632] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.133 seconds
+[2022-01-30 20:17:26,722] {processor.py:163} INFO - Started process (PID=54103) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:17:26,724] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:17:26,726] {logging_mixin.py:109} INFO - [2022-01-30 20:17:26,726] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:17:26,789] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:17:26,801] {logging_mixin.py:109} INFO - [2022-01-30 20:17:26,800] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:17:26,815] {logging_mixin.py:109} INFO - [2022-01-30 20:17:26,814] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:16:56.814681+00:00
+[2022-01-30 20:17:26,828] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.112 seconds
+[2022-01-30 20:17:56,868] {processor.py:163} INFO - Started process (PID=54127) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:17:56,870] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:17:56,872] {logging_mixin.py:109} INFO - [2022-01-30 20:17:56,871] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:17:56,928] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:17:56,941] {logging_mixin.py:109} INFO - [2022-01-30 20:17:56,940] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:17:56,955] {logging_mixin.py:109} INFO - [2022-01-30 20:17:56,955] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:17:26.954726+00:00
+[2022-01-30 20:17:56,965] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.102 seconds
+[2022-01-30 20:18:27,085] {processor.py:163} INFO - Started process (PID=54162) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:18:27,087] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:18:27,092] {logging_mixin.py:109} INFO - [2022-01-30 20:18:27,092] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:18:27,231] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:18:27,251] {logging_mixin.py:109} INFO - [2022-01-30 20:18:27,249] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:18:27,289] {logging_mixin.py:109} INFO - [2022-01-30 20:18:27,289] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:17:57.289015+00:00
+[2022-01-30 20:18:27,303] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.221 seconds
+[2022-01-30 20:18:57,398] {processor.py:163} INFO - Started process (PID=54186) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:18:57,400] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:18:57,401] {logging_mixin.py:109} INFO - [2022-01-30 20:18:57,401] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:18:57,459] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:18:57,474] {logging_mixin.py:109} INFO - [2022-01-30 20:18:57,473] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:18:57,488] {logging_mixin.py:109} INFO - [2022-01-30 20:18:57,488] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:18:27.488510+00:00
+[2022-01-30 20:18:57,501] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.108 seconds
+[2022-01-30 20:19:27,578] {processor.py:163} INFO - Started process (PID=54222) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:19:27,580] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:19:27,583] {logging_mixin.py:109} INFO - [2022-01-30 20:19:27,583] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:19:27,644] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:19:27,659] {logging_mixin.py:109} INFO - [2022-01-30 20:19:27,657] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:19:27,676] {logging_mixin.py:109} INFO - [2022-01-30 20:19:27,675] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:18:57.675740+00:00
+[2022-01-30 20:19:27,689] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.117 seconds
+[2022-01-30 20:19:57,754] {processor.py:163} INFO - Started process (PID=54246) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:19:57,757] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:19:57,760] {logging_mixin.py:109} INFO - [2022-01-30 20:19:57,759] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:19:57,814] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:19:57,825] {logging_mixin.py:109} INFO - [2022-01-30 20:19:57,824] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:19:57,840] {logging_mixin.py:109} INFO - [2022-01-30 20:19:57,840] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:19:27.839827+00:00
+[2022-01-30 20:19:57,853] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.107 seconds
+[2022-01-30 20:20:28,602] {processor.py:163} INFO - Started process (PID=54281) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:20:28,604] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:20:28,605] {logging_mixin.py:109} INFO - [2022-01-30 20:20:28,605] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:20:28,659] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:20:28,673] {logging_mixin.py:109} INFO - [2022-01-30 20:20:28,672] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:20:28,692] {logging_mixin.py:109} INFO - [2022-01-30 20:20:28,692] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:19:58.692035+00:00
+[2022-01-30 20:20:28,715] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.116 seconds
+[2022-01-30 20:20:58,801] {processor.py:163} INFO - Started process (PID=54305) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:20:58,803] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:20:58,805] {logging_mixin.py:109} INFO - [2022-01-30 20:20:58,805] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:20:58,861] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:20:58,873] {logging_mixin.py:109} INFO - [2022-01-30 20:20:58,872] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:20:58,887] {logging_mixin.py:109} INFO - [2022-01-30 20:20:58,887] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:20:28.887441+00:00
+[2022-01-30 20:20:58,898] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.102 seconds
+[2022-01-30 20:21:28,976] {processor.py:163} INFO - Started process (PID=54335) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:21:28,983] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:21:28,985] {logging_mixin.py:109} INFO - [2022-01-30 20:21:28,985] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:21:29,109] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:21:29,132] {logging_mixin.py:109} INFO - [2022-01-30 20:21:29,130] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:21:29,161] {logging_mixin.py:109} INFO - [2022-01-30 20:21:29,161] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:20:59.160944+00:00
+[2022-01-30 20:21:29,179] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.206 seconds
+[2022-01-30 20:21:59,319] {processor.py:163} INFO - Started process (PID=54359) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:21:59,322] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:21:59,325] {logging_mixin.py:109} INFO - [2022-01-30 20:21:59,325] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:21:59,379] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:21:59,390] {logging_mixin.py:109} INFO - [2022-01-30 20:21:59,388] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:21:59,404] {logging_mixin.py:109} INFO - [2022-01-30 20:21:59,404] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:21:29.404484+00:00
+[2022-01-30 20:21:59,414] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.104 seconds
+[2022-01-30 20:22:29,497] {processor.py:163} INFO - Started process (PID=54384) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:22:29,498] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:22:29,500] {logging_mixin.py:109} INFO - [2022-01-30 20:22:29,499] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:22:29,566] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:22:29,589] {logging_mixin.py:109} INFO - [2022-01-30 20:22:29,587] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:22:29,613] {logging_mixin.py:109} INFO - [2022-01-30 20:22:29,612] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:21:59.612523+00:00
+[2022-01-30 20:22:29,627] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.135 seconds
+[2022-01-30 20:22:59,725] {processor.py:163} INFO - Started process (PID=54419) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:22:59,727] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:22:59,729] {logging_mixin.py:109} INFO - [2022-01-30 20:22:59,728] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:22:59,825] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:22:59,863] {logging_mixin.py:109} INFO - [2022-01-30 20:22:59,862] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:22:59,897] {logging_mixin.py:109} INFO - [2022-01-30 20:22:59,897] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:22:29.896954+00:00
+[2022-01-30 20:22:59,922] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.210 seconds
+[2022-01-30 20:23:29,992] {processor.py:163} INFO - Started process (PID=54443) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:23:29,993] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:23:29,994] {logging_mixin.py:109} INFO - [2022-01-30 20:23:29,994] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:23:30,069] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:23:30,085] {logging_mixin.py:109} INFO - [2022-01-30 20:23:30,083] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:23:30,115] {logging_mixin.py:109} INFO - [2022-01-30 20:23:30,115] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:23:00.114564+00:00
+[2022-01-30 20:23:30,129] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.140 seconds
+[2022-01-30 20:24:00,279] {processor.py:163} INFO - Started process (PID=54465) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:24:00,281] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:24:00,283] {logging_mixin.py:109} INFO - [2022-01-30 20:24:00,283] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:24:00,339] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:24:00,353] {logging_mixin.py:109} INFO - [2022-01-30 20:24:00,352] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:24:00,369] {logging_mixin.py:109} INFO - [2022-01-30 20:24:00,369] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:23:30.369240+00:00
+[2022-01-30 20:24:00,378] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.107 seconds
+[2022-01-30 20:24:30,458] {processor.py:163} INFO - Started process (PID=54498) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:24:30,460] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:24:30,461] {logging_mixin.py:109} INFO - [2022-01-30 20:24:30,461] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:24:30,537] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:24:30,561] {logging_mixin.py:109} INFO - [2022-01-30 20:24:30,559] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:24:30,582] {logging_mixin.py:109} INFO - [2022-01-30 20:24:30,581] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:24:00.581586+00:00
+[2022-01-30 20:24:30,595] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.141 seconds
+[2022-01-30 20:25:00,708] {processor.py:163} INFO - Started process (PID=54521) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:25:00,709] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:25:00,711] {logging_mixin.py:109} INFO - [2022-01-30 20:25:00,710] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:25:00,760] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:25:00,773] {logging_mixin.py:109} INFO - [2022-01-30 20:25:00,771] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:25:00,786] {logging_mixin.py:109} INFO - [2022-01-30 20:25:00,786] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:24:30.786504+00:00
+[2022-01-30 20:25:00,797] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.093 seconds
+[2022-01-30 20:25:30,839] {processor.py:163} INFO - Started process (PID=54558) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:25:30,842] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:25:30,844] {logging_mixin.py:109} INFO - [2022-01-30 20:25:30,844] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:25:30,901] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:25:30,913] {logging_mixin.py:109} INFO - [2022-01-30 20:25:30,912] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:25:30,928] {logging_mixin.py:109} INFO - [2022-01-30 20:25:30,928] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:25:00.928017+00:00
+[2022-01-30 20:25:30,939] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.105 seconds
+[2022-01-30 20:26:01,013] {processor.py:163} INFO - Started process (PID=54581) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:26:01,017] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:26:01,019] {logging_mixin.py:109} INFO - [2022-01-30 20:26:01,019] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:26:01,129] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:26:01,146] {logging_mixin.py:109} INFO - [2022-01-30 20:26:01,145] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:26:01,176] {logging_mixin.py:109} INFO - [2022-01-30 20:26:01,176] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:25:31.176043+00:00
+[2022-01-30 20:26:01,190] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.186 seconds
+[2022-01-30 20:26:31,290] {processor.py:163} INFO - Started process (PID=54614) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:26:31,293] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:26:31,294] {logging_mixin.py:109} INFO - [2022-01-30 20:26:31,294] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:26:31,362] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:26:31,378] {logging_mixin.py:109} INFO - [2022-01-30 20:26:31,376] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:26:31,395] {logging_mixin.py:109} INFO - [2022-01-30 20:26:31,395] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:26:01.395220+00:00
+[2022-01-30 20:26:31,408] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.122 seconds
+[2022-01-30 20:27:01,498] {processor.py:163} INFO - Started process (PID=54636) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:27:01,501] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:27:01,502] {logging_mixin.py:109} INFO - [2022-01-30 20:27:01,502] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:27:01,563] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:27:01,575] {logging_mixin.py:109} INFO - [2022-01-30 20:27:01,574] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:27:01,589] {logging_mixin.py:109} INFO - [2022-01-30 20:27:01,589] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:26:31.589555+00:00
+[2022-01-30 20:27:01,600] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.111 seconds
+[2022-01-30 20:27:31,656] {processor.py:163} INFO - Started process (PID=54660) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:27:31,659] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:27:31,660] {logging_mixin.py:109} INFO - [2022-01-30 20:27:31,660] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:27:31,738] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:27:31,752] {logging_mixin.py:109} INFO - [2022-01-30 20:27:31,751] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:27:31,766] {logging_mixin.py:109} INFO - [2022-01-30 20:27:31,766] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:27:01.766182+00:00
+[2022-01-30 20:27:31,776] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.124 seconds
+[2022-01-30 20:28:01,847] {processor.py:163} INFO - Started process (PID=54693) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:28:01,850] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:28:01,851] {logging_mixin.py:109} INFO - [2022-01-30 20:28:01,851] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:28:01,946] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:28:01,956] {logging_mixin.py:109} INFO - [2022-01-30 20:28:01,955] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:28:01,974] {logging_mixin.py:109} INFO - [2022-01-30 20:28:01,974] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:27:31.973851+00:00
+[2022-01-30 20:28:01,983] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.142 seconds
+[2022-01-30 20:28:32,094] {processor.py:163} INFO - Started process (PID=54715) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:28:32,098] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:28:32,100] {logging_mixin.py:109} INFO - [2022-01-30 20:28:32,099] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:28:32,170] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:28:32,183] {logging_mixin.py:109} INFO - [2022-01-30 20:28:32,182] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:28:32,199] {logging_mixin.py:109} INFO - [2022-01-30 20:28:32,199] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:28:02.199369+00:00
+[2022-01-30 20:28:32,211] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.124 seconds
+[2022-01-30 20:29:02,323] {processor.py:163} INFO - Started process (PID=54739) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:29:02,325] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:29:02,326] {logging_mixin.py:109} INFO - [2022-01-30 20:29:02,326] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:29:02,382] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:29:02,398] {logging_mixin.py:109} INFO - [2022-01-30 20:29:02,395] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:29:02,417] {logging_mixin.py:109} INFO - [2022-01-30 20:29:02,417] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:28:32.417014+00:00
+[2022-01-30 20:29:02,425] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.107 seconds
+[2022-01-30 20:29:32,471] {processor.py:163} INFO - Started process (PID=54771) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:29:32,477] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:29:32,481] {logging_mixin.py:109} INFO - [2022-01-30 20:29:32,480] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:29:32,611] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:29:32,639] {logging_mixin.py:109} INFO - [2022-01-30 20:29:32,635] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:29:32,670] {logging_mixin.py:109} INFO - [2022-01-30 20:29:32,670] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:29:02.669879+00:00
+[2022-01-30 20:29:32,691] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.232 seconds
+[2022-01-30 20:30:02,805] {processor.py:163} INFO - Started process (PID=54794) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:30:02,808] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:30:02,810] {logging_mixin.py:109} INFO - [2022-01-30 20:30:02,810] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:30:02,866] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:30:02,878] {logging_mixin.py:109} INFO - [2022-01-30 20:30:02,877] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:30:02,892] {logging_mixin.py:109} INFO - [2022-01-30 20:30:02,892] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:29:32.892201+00:00
+[2022-01-30 20:30:02,904] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.104 seconds
+[2022-01-30 20:30:32,989] {processor.py:163} INFO - Started process (PID=54829) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:30:32,991] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:30:32,992] {logging_mixin.py:109} INFO - [2022-01-30 20:30:32,992] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:30:33,070] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:30:33,083] {logging_mixin.py:109} INFO - [2022-01-30 20:30:33,081] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:30:33,098] {logging_mixin.py:109} INFO - [2022-01-30 20:30:33,098] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:30:03.098278+00:00
+[2022-01-30 20:30:33,112] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.128 seconds
+[2022-01-30 20:31:03,196] {processor.py:163} INFO - Started process (PID=54853) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:31:03,198] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:31:03,199] {logging_mixin.py:109} INFO - [2022-01-30 20:31:03,199] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:31:03,255] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:31:03,269] {logging_mixin.py:109} INFO - [2022-01-30 20:31:03,268] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:31:03,284] {logging_mixin.py:109} INFO - [2022-01-30 20:31:03,284] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:30:33.284179+00:00
+[2022-01-30 20:31:03,298] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.106 seconds
+[2022-01-30 20:31:33,377] {processor.py:163} INFO - Started process (PID=54888) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:31:33,379] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:31:33,381] {logging_mixin.py:109} INFO - [2022-01-30 20:31:33,381] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:31:33,456] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:31:33,478] {logging_mixin.py:109} INFO - [2022-01-30 20:31:33,477] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:31:33,496] {logging_mixin.py:109} INFO - [2022-01-30 20:31:33,496] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:31:03.496528+00:00
+[2022-01-30 20:31:33,510] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.139 seconds
+[2022-01-30 20:32:03,672] {processor.py:163} INFO - Started process (PID=54911) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:32:03,675] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:32:03,676] {logging_mixin.py:109} INFO - [2022-01-30 20:32:03,676] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:32:03,728] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:32:03,740] {logging_mixin.py:109} INFO - [2022-01-30 20:32:03,738] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:32:03,755] {logging_mixin.py:109} INFO - [2022-01-30 20:32:03,755] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:31:33.754727+00:00
+[2022-01-30 20:32:03,765] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.096 seconds
+[2022-01-30 20:32:34,605] {processor.py:163} INFO - Started process (PID=54936) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:32:34,608] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:32:34,609] {logging_mixin.py:109} INFO - [2022-01-30 20:32:34,609] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:32:34,659] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:32:34,671] {logging_mixin.py:109} INFO - [2022-01-30 20:32:34,670] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:32:34,685] {logging_mixin.py:109} INFO - [2022-01-30 20:32:34,684] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:32:04.684687+00:00
+[2022-01-30 20:32:34,696] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.094 seconds
+[2022-01-30 20:33:04,775] {processor.py:163} INFO - Started process (PID=54969) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:33:04,777] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:33:04,778] {logging_mixin.py:109} INFO - [2022-01-30 20:33:04,778] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:33:04,845] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:33:04,862] {logging_mixin.py:109} INFO - [2022-01-30 20:33:04,860] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:33:04,880] {logging_mixin.py:109} INFO - [2022-01-30 20:33:04,880] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:32:34.879962+00:00
+[2022-01-30 20:33:04,895] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.125 seconds
+[2022-01-30 20:33:34,983] {processor.py:163} INFO - Started process (PID=54993) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:33:34,985] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:33:34,986] {logging_mixin.py:109} INFO - [2022-01-30 20:33:34,986] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:33:35,039] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:33:35,053] {logging_mixin.py:109} INFO - [2022-01-30 20:33:35,052] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:33:35,073] {logging_mixin.py:109} INFO - [2022-01-30 20:33:35,073] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:33:05.073171+00:00
+[2022-01-30 20:33:35,083] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.105 seconds
+[2022-01-30 20:34:05,116] {processor.py:163} INFO - Started process (PID=55014) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:34:05,118] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:34:05,119] {logging_mixin.py:109} INFO - [2022-01-30 20:34:05,119] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:34:05,177] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:34:05,189] {logging_mixin.py:109} INFO - [2022-01-30 20:34:05,188] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:34:05,212] {logging_mixin.py:109} INFO - [2022-01-30 20:34:05,211] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:33:35.211714+00:00
+[2022-01-30 20:34:05,228] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.115 seconds
+[2022-01-30 20:34:35,309] {processor.py:163} INFO - Started process (PID=55045) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:34:35,312] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:34:35,317] {logging_mixin.py:109} INFO - [2022-01-30 20:34:35,317] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:34:35,399] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:34:35,416] {logging_mixin.py:109} INFO - [2022-01-30 20:34:35,415] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:34:35,432] {logging_mixin.py:109} INFO - [2022-01-30 20:34:35,432] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:34:05.431816+00:00
+[2022-01-30 20:34:35,443] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.139 seconds
+[2022-01-30 20:35:05,528] {processor.py:163} INFO - Started process (PID=55068) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:35:05,532] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:35:05,535] {logging_mixin.py:109} INFO - [2022-01-30 20:35:05,535] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:35:05,600] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:35:05,612] {logging_mixin.py:109} INFO - [2022-01-30 20:35:05,610] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:35:05,626] {logging_mixin.py:109} INFO - [2022-01-30 20:35:05,626] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:34:35.626404+00:00
+[2022-01-30 20:35:05,636] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.116 seconds
+[2022-01-30 20:35:35,677] {processor.py:163} INFO - Started process (PID=55102) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:35:35,680] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:35:35,682] {logging_mixin.py:109} INFO - [2022-01-30 20:35:35,682] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:35:35,740] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:35:35,755] {logging_mixin.py:109} INFO - [2022-01-30 20:35:35,753] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:35:35,770] {logging_mixin.py:109} INFO - [2022-01-30 20:35:35,770] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:35:05.769832+00:00
+[2022-01-30 20:35:35,780] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.107 seconds
+[2022-01-30 20:36:05,816] {processor.py:163} INFO - Started process (PID=55125) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:36:05,818] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:36:05,821] {logging_mixin.py:109} INFO - [2022-01-30 20:36:05,820] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:36:05,881] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:36:05,896] {logging_mixin.py:109} INFO - [2022-01-30 20:36:05,895] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:36:05,913] {logging_mixin.py:109} INFO - [2022-01-30 20:36:05,913] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:35:35.913117+00:00
+[2022-01-30 20:36:05,925] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.114 seconds
+[2022-01-30 20:36:36,016] {processor.py:163} INFO - Started process (PID=55151) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:36:36,018] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:36:36,019] {logging_mixin.py:109} INFO - [2022-01-30 20:36:36,019] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:36:36,078] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:36:36,089] {logging_mixin.py:109} INFO - [2022-01-30 20:36:36,088] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:36:36,102] {logging_mixin.py:109} INFO - [2022-01-30 20:36:36,102] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:36:06.102500+00:00
+[2022-01-30 20:36:36,110] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.102 seconds
+[2022-01-30 20:37:06,146] {processor.py:163} INFO - Started process (PID=55187) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:37:06,149] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:37:06,151] {logging_mixin.py:109} INFO - [2022-01-30 20:37:06,150] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:37:06,237] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:37:06,273] {logging_mixin.py:109} INFO - [2022-01-30 20:37:06,271] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:37:06,293] {logging_mixin.py:109} INFO - [2022-01-30 20:37:06,293] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:36:36.293437+00:00
+[2022-01-30 20:37:06,305] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.166 seconds
+[2022-01-30 20:37:36,398] {processor.py:163} INFO - Started process (PID=55211) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:37:36,400] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:37:36,409] {logging_mixin.py:109} INFO - [2022-01-30 20:37:36,409] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:37:36,464] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:37:36,474] {logging_mixin.py:109} INFO - [2022-01-30 20:37:36,473] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:37:36,486] {logging_mixin.py:109} INFO - [2022-01-30 20:37:36,486] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:37:06.486388+00:00
+[2022-01-30 20:37:36,498] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.110 seconds
+[2022-01-30 20:38:06,596] {processor.py:163} INFO - Started process (PID=55245) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:38:06,598] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:38:06,600] {logging_mixin.py:109} INFO - [2022-01-30 20:38:06,600] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:38:06,654] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:38:06,668] {logging_mixin.py:109} INFO - [2022-01-30 20:38:06,666] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:38:06,685] {logging_mixin.py:109} INFO - [2022-01-30 20:38:06,685] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:37:36.684734+00:00
+[2022-01-30 20:38:06,696] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.104 seconds
+[2022-01-30 20:38:36,720] {processor.py:163} INFO - Started process (PID=55269) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:38:36,722] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:38:36,723] {logging_mixin.py:109} INFO - [2022-01-30 20:38:36,723] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:38:36,793] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:38:36,809] {logging_mixin.py:109} INFO - [2022-01-30 20:38:36,808] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:38:36,828] {logging_mixin.py:109} INFO - [2022-01-30 20:38:36,828] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:38:06.827916+00:00
+[2022-01-30 20:38:36,844] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.128 seconds
+[2022-01-30 20:39:06,936] {processor.py:163} INFO - Started process (PID=55303) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:39:06,938] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:39:06,939] {logging_mixin.py:109} INFO - [2022-01-30 20:39:06,939] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:39:07,000] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:39:07,015] {logging_mixin.py:109} INFO - [2022-01-30 20:39:07,014] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:39:07,033] {logging_mixin.py:109} INFO - [2022-01-30 20:39:07,033] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:38:37.033253+00:00
+[2022-01-30 20:39:07,042] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.112 seconds
+[2022-01-30 20:39:37,070] {processor.py:163} INFO - Started process (PID=55325) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:39:37,071] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:39:37,073] {logging_mixin.py:109} INFO - [2022-01-30 20:39:37,073] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:39:37,154] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:39:37,169] {logging_mixin.py:109} INFO - [2022-01-30 20:39:37,167] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:39:37,186] {logging_mixin.py:109} INFO - [2022-01-30 20:39:37,186] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:39:07.185892+00:00
+[2022-01-30 20:39:37,200] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.134 seconds
+[2022-01-30 20:40:07,278] {processor.py:163} INFO - Started process (PID=55347) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:40:07,281] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:40:07,284] {logging_mixin.py:109} INFO - [2022-01-30 20:40:07,284] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:40:07,343] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:40:07,357] {logging_mixin.py:109} INFO - [2022-01-30 20:40:07,356] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:40:07,374] {logging_mixin.py:109} INFO - [2022-01-30 20:40:07,373] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:39:37.373731+00:00
+[2022-01-30 20:40:07,385] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.116 seconds
+[2022-01-30 20:40:37,439] {processor.py:163} INFO - Started process (PID=55378) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:40:37,442] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:40:37,443] {logging_mixin.py:109} INFO - [2022-01-30 20:40:37,443] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:40:37,513] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:40:37,527] {logging_mixin.py:109} INFO - [2022-01-30 20:40:37,526] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:40:37,543] {logging_mixin.py:109} INFO - [2022-01-30 20:40:37,543] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:40:07.542712+00:00
+[2022-01-30 20:40:37,556] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.120 seconds
+[2022-01-30 20:41:07,672] {processor.py:163} INFO - Started process (PID=55402) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:41:07,676] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:41:07,677] {logging_mixin.py:109} INFO - [2022-01-30 20:41:07,677] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:41:07,733] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:41:07,747] {logging_mixin.py:109} INFO - [2022-01-30 20:41:07,746] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:41:07,762] {logging_mixin.py:109} INFO - [2022-01-30 20:41:07,762] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:40:37.762094+00:00
+[2022-01-30 20:41:07,771] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.104 seconds
+[2022-01-30 20:41:37,878] {processor.py:163} INFO - Started process (PID=55444) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:41:37,881] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:41:37,883] {logging_mixin.py:109} INFO - [2022-01-30 20:41:37,883] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:41:37,949] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:41:37,960] {logging_mixin.py:109} INFO - [2022-01-30 20:41:37,959] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:41:37,974] {logging_mixin.py:109} INFO - [2022-01-30 20:41:37,974] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:41:07.974385+00:00
+[2022-01-30 20:41:37,994] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.119 seconds
+[2022-01-30 20:42:08,071] {processor.py:163} INFO - Started process (PID=55467) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:42:08,074] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:42:08,075] {logging_mixin.py:109} INFO - [2022-01-30 20:42:08,075] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:42:08,162] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:42:08,179] {logging_mixin.py:109} INFO - [2022-01-30 20:42:08,177] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:42:08,207] {logging_mixin.py:109} INFO - [2022-01-30 20:42:08,207] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:41:38.206755+00:00
+[2022-01-30 20:42:08,218] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.152 seconds
+[2022-01-30 20:42:38,302] {processor.py:163} INFO - Started process (PID=55499) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:42:38,305] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:42:38,307] {logging_mixin.py:109} INFO - [2022-01-30 20:42:38,307] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:42:38,372] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:42:38,389] {logging_mixin.py:109} INFO - [2022-01-30 20:42:38,386] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:42:38,405] {logging_mixin.py:109} INFO - [2022-01-30 20:42:38,404] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:42:08.404671+00:00
+[2022-01-30 20:42:38,419] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.124 seconds
+[2022-01-30 20:43:08,497] {processor.py:163} INFO - Started process (PID=55522) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:43:08,499] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:43:08,502] {logging_mixin.py:109} INFO - [2022-01-30 20:43:08,502] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:43:08,673] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:43:08,705] {logging_mixin.py:109} INFO - [2022-01-30 20:43:08,703] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:43:08,735] {logging_mixin.py:109} INFO - [2022-01-30 20:43:08,735] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:42:38.735478+00:00
+[2022-01-30 20:43:08,774] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.284 seconds
+[2022-01-30 20:43:38,873] {processor.py:163} INFO - Started process (PID=55554) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:43:38,875] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:43:38,877] {logging_mixin.py:109} INFO - [2022-01-30 20:43:38,877] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:43:38,945] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:43:38,959] {logging_mixin.py:109} INFO - [2022-01-30 20:43:38,957] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:43:38,977] {logging_mixin.py:109} INFO - [2022-01-30 20:43:38,976] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:43:08.976633+00:00
+[2022-01-30 20:43:38,990] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.124 seconds
+[2022-01-30 20:44:09,088] {processor.py:163} INFO - Started process (PID=55576) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:44:09,090] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:44:09,091] {logging_mixin.py:109} INFO - [2022-01-30 20:44:09,091] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:44:09,164] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:44:09,182] {logging_mixin.py:109} INFO - [2022-01-30 20:44:09,180] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:44:09,201] {logging_mixin.py:109} INFO - [2022-01-30 20:44:09,200] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:43:39.200669+00:00
+[2022-01-30 20:44:09,215] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.133 seconds
+[2022-01-30 20:44:39,320] {processor.py:163} INFO - Started process (PID=55600) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:44:39,322] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:44:39,323] {logging_mixin.py:109} INFO - [2022-01-30 20:44:39,323] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:44:39,419] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:44:39,443] {logging_mixin.py:109} INFO - [2022-01-30 20:44:39,442] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:44:39,469] {logging_mixin.py:109} INFO - [2022-01-30 20:44:39,469] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:44:09.468879+00:00
+[2022-01-30 20:44:39,487] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.177 seconds
+[2022-01-30 20:45:09,599] {processor.py:163} INFO - Started process (PID=55634) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:45:09,601] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:45:09,605] {logging_mixin.py:109} INFO - [2022-01-30 20:45:09,605] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:45:09,671] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:45:09,688] {logging_mixin.py:109} INFO - [2022-01-30 20:45:09,687] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:45:09,707] {logging_mixin.py:109} INFO - [2022-01-30 20:45:09,707] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:44:39.706469+00:00
+[2022-01-30 20:45:09,720] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.128 seconds
+[2022-01-30 20:45:39,818] {processor.py:163} INFO - Started process (PID=55656) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:45:39,821] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:45:39,823] {logging_mixin.py:109} INFO - [2022-01-30 20:45:39,823] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:45:39,884] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:45:39,899] {logging_mixin.py:109} INFO - [2022-01-30 20:45:39,898] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:45:39,920] {logging_mixin.py:109} INFO - [2022-01-30 20:45:39,920] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:45:09.920061+00:00
+[2022-01-30 20:45:39,931] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.118 seconds
+[2022-01-30 20:46:10,001] {processor.py:163} INFO - Started process (PID=55690) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:46:10,003] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:46:10,023] {logging_mixin.py:109} INFO - [2022-01-30 20:46:10,022] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:46:10,122] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:46:10,141] {logging_mixin.py:109} INFO - [2022-01-30 20:46:10,139] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:46:10,162] {logging_mixin.py:109} INFO - [2022-01-30 20:46:10,162] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:45:40.161753+00:00
+[2022-01-30 20:46:10,176] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.179 seconds
+[2022-01-30 20:46:40,279] {processor.py:163} INFO - Started process (PID=55715) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:46:40,282] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:46:40,284] {logging_mixin.py:109} INFO - [2022-01-30 20:46:40,284] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:46:40,352] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:46:40,364] {logging_mixin.py:109} INFO - [2022-01-30 20:46:40,363] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:46:40,378] {logging_mixin.py:109} INFO - [2022-01-30 20:46:40,378] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:46:10.378506+00:00
+[2022-01-30 20:46:40,389] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.120 seconds
+[2022-01-30 20:47:10,514] {processor.py:163} INFO - Started process (PID=55749) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:47:10,520] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:47:10,526] {logging_mixin.py:109} INFO - [2022-01-30 20:47:10,525] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:47:10,706] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:47:10,739] {logging_mixin.py:109} INFO - [2022-01-30 20:47:10,735] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:47:10,776] {logging_mixin.py:109} INFO - [2022-01-30 20:47:10,776] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:46:40.776065+00:00
+[2022-01-30 20:47:10,797] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.300 seconds
+[2022-01-30 20:47:40,896] {processor.py:163} INFO - Started process (PID=55773) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:47:40,898] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:47:40,899] {logging_mixin.py:109} INFO - [2022-01-30 20:47:40,899] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:47:40,986] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:47:41,002] {logging_mixin.py:109} INFO - [2022-01-30 20:47:41,001] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:47:41,022] {logging_mixin.py:109} INFO - [2022-01-30 20:47:41,022] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:47:11.021595+00:00
+[2022-01-30 20:47:41,042] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.150 seconds
+[2022-01-30 20:48:11,135] {processor.py:163} INFO - Started process (PID=55797) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:48:11,137] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:48:11,139] {logging_mixin.py:109} INFO - [2022-01-30 20:48:11,139] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:48:11,189] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:48:11,201] {logging_mixin.py:109} INFO - [2022-01-30 20:48:11,200] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:48:11,214] {logging_mixin.py:109} INFO - [2022-01-30 20:48:11,214] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:47:41.214176+00:00
+[2022-01-30 20:48:11,223] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.094 seconds
+[2022-01-30 20:48:41,327] {processor.py:163} INFO - Started process (PID=55831) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:48:41,331] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:48:41,333] {logging_mixin.py:109} INFO - [2022-01-30 20:48:41,333] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:48:41,395] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:48:41,407] {logging_mixin.py:109} INFO - [2022-01-30 20:48:41,406] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:48:41,426] {logging_mixin.py:109} INFO - [2022-01-30 20:48:41,426] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:48:11.425463+00:00
+[2022-01-30 20:48:41,441] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.123 seconds
+[2022-01-30 20:49:11,536] {processor.py:163} INFO - Started process (PID=55852) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:49:11,539] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:49:11,542] {logging_mixin.py:109} INFO - [2022-01-30 20:49:11,541] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:49:11,607] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:49:11,622] {logging_mixin.py:109} INFO - [2022-01-30 20:49:11,621] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:49:11,640] {logging_mixin.py:109} INFO - [2022-01-30 20:49:11,640] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:48:41.639968+00:00
+[2022-01-30 20:49:11,651] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.121 seconds
+[2022-01-30 20:49:41,747] {processor.py:163} INFO - Started process (PID=55888) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:49:41,749] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:49:41,751] {logging_mixin.py:109} INFO - [2022-01-30 20:49:41,751] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:49:41,851] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:49:41,889] {logging_mixin.py:109} INFO - [2022-01-30 20:49:41,886] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:49:41,931] {logging_mixin.py:109} INFO - [2022-01-30 20:49:41,931] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:49:11.930958+00:00
+[2022-01-30 20:49:41,954] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.215 seconds
+[2022-01-30 20:50:12,038] {processor.py:163} INFO - Started process (PID=55911) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:50:12,041] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:50:12,043] {logging_mixin.py:109} INFO - [2022-01-30 20:50:12,043] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:50:12,109] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:50:12,121] {logging_mixin.py:109} INFO - [2022-01-30 20:50:12,120] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:50:12,135] {logging_mixin.py:109} INFO - [2022-01-30 20:50:12,135] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:49:42.135221+00:00
+[2022-01-30 20:50:12,142] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.110 seconds
+[2022-01-30 20:50:42,218] {processor.py:163} INFO - Started process (PID=55942) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:50:42,222] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:50:42,223] {logging_mixin.py:109} INFO - [2022-01-30 20:50:42,223] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:50:42,395] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:50:42,425] {logging_mixin.py:109} INFO - [2022-01-30 20:50:42,423] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:50:42,448] {logging_mixin.py:109} INFO - [2022-01-30 20:50:42,448] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:50:12.447887+00:00
+[2022-01-30 20:50:42,491] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.282 seconds
+[2022-01-30 20:51:12,621] {processor.py:163} INFO - Started process (PID=55967) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:51:12,625] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:51:12,629] {logging_mixin.py:109} INFO - [2022-01-30 20:51:12,628] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:51:12,847] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:51:12,886] {logging_mixin.py:109} INFO - [2022-01-30 20:51:12,884] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:51:12,924] {logging_mixin.py:109} INFO - [2022-01-30 20:51:12,924] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:50:42.923951+00:00
+[2022-01-30 20:51:12,951] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.346 seconds
+[2022-01-30 20:51:43,088] {processor.py:163} INFO - Started process (PID=55990) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:51:43,090] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:51:43,092] {logging_mixin.py:109} INFO - [2022-01-30 20:51:43,092] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:51:43,151] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:51:43,164] {logging_mixin.py:109} INFO - [2022-01-30 20:51:43,163] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:51:43,178] {logging_mixin.py:109} INFO - [2022-01-30 20:51:43,178] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:51:13.178036+00:00
+[2022-01-30 20:51:43,190] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.107 seconds
+[2022-01-30 20:52:13,291] {processor.py:163} INFO - Started process (PID=56012) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:52:13,293] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:52:13,297] {logging_mixin.py:109} INFO - [2022-01-30 20:52:13,297] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:52:13,351] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:52:13,364] {logging_mixin.py:109} INFO - [2022-01-30 20:52:13,363] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:52:13,380] {logging_mixin.py:109} INFO - [2022-01-30 20:52:13,380] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:51:43.380473+00:00
+[2022-01-30 20:52:13,392] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.110 seconds
+[2022-01-30 20:52:43,481] {processor.py:163} INFO - Started process (PID=56045) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:52:43,485] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:52:43,489] {logging_mixin.py:109} INFO - [2022-01-30 20:52:43,488] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:52:43,578] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:52:43,590] {logging_mixin.py:109} INFO - [2022-01-30 20:52:43,589] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:52:43,607] {logging_mixin.py:109} INFO - [2022-01-30 20:52:43,607] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:52:13.606848+00:00
+[2022-01-30 20:52:43,617] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.143 seconds
+[2022-01-30 20:53:13,696] {processor.py:163} INFO - Started process (PID=56068) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:53:13,699] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:53:13,700] {logging_mixin.py:109} INFO - [2022-01-30 20:53:13,700] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:53:13,761] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:53:13,779] {logging_mixin.py:109} INFO - [2022-01-30 20:53:13,778] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:53:13,799] {logging_mixin.py:109} INFO - [2022-01-30 20:53:13,799] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:52:43.799056+00:00
+[2022-01-30 20:53:13,813] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.123 seconds
+[2022-01-30 20:53:44,100] {processor.py:163} INFO - Started process (PID=56090) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:53:44,102] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:53:44,104] {logging_mixin.py:109} INFO - [2022-01-30 20:53:44,103] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:53:44,168] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:53:44,184] {logging_mixin.py:109} INFO - [2022-01-30 20:53:44,183] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:53:44,197] {logging_mixin.py:109} INFO - [2022-01-30 20:53:44,197] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:53:14.197376+00:00
+[2022-01-30 20:53:44,209] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.113 seconds
+[2022-01-30 20:54:14,297] {processor.py:163} INFO - Started process (PID=56124) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:54:14,301] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:54:14,305] {logging_mixin.py:109} INFO - [2022-01-30 20:54:14,304] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:54:14,383] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:54:14,401] {logging_mixin.py:109} INFO - [2022-01-30 20:54:14,400] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:54:14,421] {logging_mixin.py:109} INFO - [2022-01-30 20:54:14,421] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:53:44.421391+00:00
+[2022-01-30 20:54:14,446] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.155 seconds
+[2022-01-30 20:54:44,533] {processor.py:163} INFO - Started process (PID=56147) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:54:44,535] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:54:44,538] {logging_mixin.py:109} INFO - [2022-01-30 20:54:44,538] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:54:44,610] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:54:44,630] {logging_mixin.py:109} INFO - [2022-01-30 20:54:44,628] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:54:44,653] {logging_mixin.py:109} INFO - [2022-01-30 20:54:44,653] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:54:14.653302+00:00
+[2022-01-30 20:54:44,668] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.143 seconds
+[2022-01-30 20:55:14,885] {processor.py:163} INFO - Started process (PID=56181) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:55:14,887] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:55:14,889] {logging_mixin.py:109} INFO - [2022-01-30 20:55:14,888] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:55:14,959] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:55:15,000] {logging_mixin.py:109} INFO - [2022-01-30 20:55:14,998] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:55:15,044] {logging_mixin.py:109} INFO - [2022-01-30 20:55:15,043] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:54:45.042923+00:00
+[2022-01-30 20:55:15,069] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.191 seconds
+[2022-01-30 20:55:45,146] {processor.py:163} INFO - Started process (PID=56207) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:55:45,148] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:55:45,150] {logging_mixin.py:109} INFO - [2022-01-30 20:55:45,150] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:55:45,207] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:55:45,224] {logging_mixin.py:109} INFO - [2022-01-30 20:55:45,222] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:55:45,239] {logging_mixin.py:109} INFO - [2022-01-30 20:55:45,239] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:55:15.239566+00:00
+[2022-01-30 20:55:45,253] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.117 seconds
+[2022-01-30 20:56:15,304] {processor.py:163} INFO - Started process (PID=56229) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:56:15,306] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:56:15,307] {logging_mixin.py:109} INFO - [2022-01-30 20:56:15,307] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:56:15,365] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:56:15,384] {logging_mixin.py:109} INFO - [2022-01-30 20:56:15,381] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:56:15,403] {logging_mixin.py:109} INFO - [2022-01-30 20:56:15,403] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:55:45.403294+00:00
+[2022-01-30 20:56:15,416] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.118 seconds
+[2022-01-30 20:56:45,603] {processor.py:163} INFO - Started process (PID=56260) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:56:45,605] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:56:45,606] {logging_mixin.py:109} INFO - [2022-01-30 20:56:45,605] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:56:45,661] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:56:45,676] {logging_mixin.py:109} INFO - [2022-01-30 20:56:45,675] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:56:45,693] {logging_mixin.py:109} INFO - [2022-01-30 20:56:45,693] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:56:15.693627+00:00
+[2022-01-30 20:56:45,707] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.108 seconds
+[2022-01-30 20:57:15,910] {processor.py:163} INFO - Started process (PID=56281) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:57:15,924] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:57:15,927] {logging_mixin.py:109} INFO - [2022-01-30 20:57:15,927] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:57:16,291] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:57:16,349] {logging_mixin.py:109} INFO - [2022-01-30 20:57:16,346] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:57:16,495] {logging_mixin.py:109} INFO - [2022-01-30 20:57:16,495] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:56:46.495023+00:00
+[2022-01-30 20:57:16,505] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.624 seconds
+[2022-01-30 20:57:46,622] {processor.py:163} INFO - Started process (PID=56303) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:57:46,624] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:57:46,628] {logging_mixin.py:109} INFO - [2022-01-30 20:57:46,628] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:57:46,751] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:57:46,775] {logging_mixin.py:109} INFO - [2022-01-30 20:57:46,773] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:57:46,800] {logging_mixin.py:109} INFO - [2022-01-30 20:57:46,800] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:57:16.800263+00:00
+[2022-01-30 20:57:46,829] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.215 seconds
+[2022-01-30 20:58:16,999] {processor.py:163} INFO - Started process (PID=56325) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:58:17,001] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:58:17,003] {logging_mixin.py:109} INFO - [2022-01-30 20:58:17,003] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:58:17,067] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:58:17,083] {logging_mixin.py:109} INFO - [2022-01-30 20:58:17,082] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:58:17,135] {logging_mixin.py:109} INFO - [2022-01-30 20:58:17,135] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:57:47.134841+00:00
+[2022-01-30 20:58:17,214] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.222 seconds
+[2022-01-30 20:58:47,401] {processor.py:163} INFO - Started process (PID=56361) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:58:47,413] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:58:47,422] {logging_mixin.py:109} INFO - [2022-01-30 20:58:47,420] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:58:47,645] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:58:47,715] {logging_mixin.py:109} INFO - [2022-01-30 20:58:47,713] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:58:47,763] {logging_mixin.py:109} INFO - [2022-01-30 20:58:47,762] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:58:17.760150+00:00
+[2022-01-30 20:58:47,792] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.416 seconds
+[2022-01-30 20:59:17,959] {processor.py:163} INFO - Started process (PID=56383) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:59:17,965] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:59:17,970] {logging_mixin.py:109} INFO - [2022-01-30 20:59:17,970] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:59:18,069] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:59:18,085] {logging_mixin.py:109} INFO - [2022-01-30 20:59:18,084] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:59:18,106] {logging_mixin.py:109} INFO - [2022-01-30 20:59:18,106] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:58:48.105931+00:00
+[2022-01-30 20:59:18,126] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.180 seconds
+[2022-01-30 20:59:48,272] {processor.py:163} INFO - Started process (PID=56406) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:59:48,275] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 20:59:48,277] {logging_mixin.py:109} INFO - [2022-01-30 20:59:48,277] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:59:48,412] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 20:59:48,442] {logging_mixin.py:109} INFO - [2022-01-30 20:59:48,441] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 20:59:48,475] {logging_mixin.py:109} INFO - [2022-01-30 20:59:48,475] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:59:18.474674+00:00
+[2022-01-30 20:59:48,493] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.225 seconds
+[2022-01-30 21:00:18,641] {processor.py:163} INFO - Started process (PID=56439) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 21:00:18,642] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 21:00:18,644] {logging_mixin.py:109} INFO - [2022-01-30 21:00:18,643] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 21:00:18,704] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 21:00:18,720] {logging_mixin.py:109} INFO - [2022-01-30 21:00:18,718] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 21:00:18,740] {logging_mixin.py:109} INFO - [2022-01-30 21:00:18,740] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T20:59:48.740076+00:00
+[2022-01-30 21:00:18,753] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.117 seconds
+[2022-01-30 21:00:49,263] {processor.py:163} INFO - Started process (PID=56464) to work on /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 21:00:49,301] {processor.py:620} INFO - Processing file /opt/airflow/dags/extract_vehpo.py for tasks to queue
+[2022-01-30 21:00:49,309] {logging_mixin.py:109} INFO - [2022-01-30 21:00:49,309] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 21:00:49,697] {processor.py:632} INFO - DAG(s) dict_keys(['extract_vehpo']) retrieved from /opt/airflow/dags/extract_vehpo.py
+[2022-01-30 21:00:49,743] {logging_mixin.py:109} INFO - [2022-01-30 21:00:49,736] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-30 21:00:49,780] {logging_mixin.py:109} INFO - [2022-01-30 21:00:49,780] {dag.py:2914} INFO - Setting next_dagrun for extract_vehpo to 2022-01-30T21:00:19.779237+00:00
+[2022-01-30 21:00:49,803] {processor.py:171} INFO - Processing /opt/airflow/dags/extract_vehpo.py took 0.662 seconds
