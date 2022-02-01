@@ -2,7 +2,7 @@
 
 ELT Pipeline for the Buenos Aires City GTFS Realtime Data
 
-Project Structure:
+### Project Structure:
 
 ```
 ├── dags                                # Airflow Dags directory
@@ -28,22 +28,6 @@ Project Structure:
 │   ├── create_static_tables.sql        # SQL Script to generate and load the GTFS Static tables
 ├── docker-compose.yml                  # Docker Compose file to start the MobilityDB and Airflow Services
 ```
-
-### A typical top-level directory layout
-
-    .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
-    └── README.md
-
-> Use short lowercase names at least for the top-level files and folders except
-> `LICENSE`, `README.md`
-
-
 
 To start the ETL Process you need to:
 
