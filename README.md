@@ -4,7 +4,7 @@ ELT Pipeline for the Buenos Aires City GTFS Realtime Data
 
 Project Structure:
 
-.
+```
 ├── dags                                # Airflow Dags directory
 │   ├── gtfs_elt                        # Folder with functions
 │      ├── api_credentials.py           # Credentials for the Buenos Aires Data API
@@ -27,20 +27,42 @@ Project Structure:
 ├── scripts
 │   ├── create_static_tables.sql        # SQL Script to generate and load the GTFS Static tables
 ├── docker-compose.yml                  # Docker Compose file to start the MobilityDB and Airflow Services
+```
+
+### A typical top-level directory layout
+
+    .
+    ├── build                   # Compiled files (alternatively `dist`)
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
+
+> Use short lowercase names at least for the top-level files and folders except
+> `LICENSE`, `README.md`
+
+
 
 To start the ETL Process you need to:
 
 1. Create an Client ID and Client Secret to access the Buenos Aires Data API (https://www.buenosaires.gob.ar/desarrollourbano/transporte/apitransporte) 
 2. Load the credentials in the ./dags/gtfs_etl/api_credentials.py file
 3. Start the Docker Process with the command:
-'''
+
+```docker
 docker compose up
-'''
+```
+
 4. Once the Docker Containers are running, you need to create the GTFS Dynamic tables with the following command:
-'''
+
+```docker
 docker exec -it elt_gtfs-airflow-worker-1 python dags/gtfs_elt/create_dynamic_tables.py
-'''
+```
+
 5. To create the static tables:
-'''
+
+```docker
 docker exec -it elt_gtfs-mobilitydb-1 psql -U docker -d mobilitydb -f create_static_tables.sql
-'''
+```
